@@ -6,7 +6,7 @@ title: Assembly Language
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-Assembly Language is the interface between higher level languages (C++, Java, etc) and machine code (binary). For a compiled language, the compiler transforms higher level code into assembly language code.
+Assembly Language is the interface between higher level languages (C++, Java, etc) and machine code (binary). For a compiled language, the compiler transforms higher level code directly into a machine code object file. This file can then be de-compiled into assembly language code, making it easier for us to read the machine code. Here is a YouTube clip that explains this: ![Comparing C to machine language](https://www.youtube.com/watch?v=yOyaJXpAYZQ)
 
 Every family of CPUs define their own Instruction Set Architeture (ISA), a set of basic instructions that the CPU can execute without needing further translation or transformation. 
 The compiler decomposes composite higher level composite instructions into operations available in the ISA. 
